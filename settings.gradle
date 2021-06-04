@@ -1,3 +1,3 @@
 rootProject.name = "EasyPhotoX"
 include ':app'
-include ':EasyPhotoX'
+include ':EasyPhotosX'
