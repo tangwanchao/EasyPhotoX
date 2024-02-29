@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EasyPhotoX">
         <activity
+            android:exported="true"
             android:name=".MainActivity"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity">

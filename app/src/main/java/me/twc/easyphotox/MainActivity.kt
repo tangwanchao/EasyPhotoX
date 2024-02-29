@@ -37,21 +37,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun newAlbumBuilder() = AlbumBuilder
         .createAlbum(this, true, GlideImageEngine)
-        .setPuzzleMenu(false)
         .setCameraLocation(Setting.LIST_FIRST)
         .setCount(6)
         .setCleanMenu(false)
-        .setPuzzleMenu(false)
         .setFileProviderAuthorityX(this)
 
     private fun newVideoAlbumBuilder() = AlbumBuilder
         .createAlbum(this, true, GlideImageEngine)
-        .setPuzzleMenu(false)
         .onlyVideo()
         .setCount(2)
         .setVideoMinSecond(3)
         .setVideoMaxSecond(30)
         .setCleanMenu(false)
-        .setPuzzleMenu(false)
         .setFileProviderAuthorityX(this)
 }
