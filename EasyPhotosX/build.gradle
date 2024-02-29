@@ -4,7 +4,8 @@ plugins {
 }
 
 android {
-    compileSdkVersion 34
+    compileSdk 34
+    namespace = "me.twc.easyphotox"
 
     defaultConfig {
         minSdkVersion 21
