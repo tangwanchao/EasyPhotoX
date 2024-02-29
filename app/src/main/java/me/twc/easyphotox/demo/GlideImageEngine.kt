@@ -1,4 +1,4 @@
-package me.twc.easyphotox
+package me.twc.easyphotox.demo
 
 import android.content.Context
 import android.graphics.Bitmap

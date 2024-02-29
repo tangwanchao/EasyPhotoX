@@ -1,4 +1,4 @@
-package me.twc.easyphotox
+package me.twc.easyphotox.demo
 
 import android.util.Log
 

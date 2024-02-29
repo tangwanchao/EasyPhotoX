@@ -1,10 +1,12 @@
-package me.twc.easyphotox
+package me.twc.easyphotox.demo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.huantansheng.easyphotos.Builder.AlbumBuilder
 import com.huantansheng.easyphotos.setting.Setting
-import me.twc.easyphotox.databinding.ActMainBinding
+import me.twc.easyphotox.EasyPhotosActivityX
+import me.twc.easyphotox.demo.databinding.ActMainBinding
+import me.twc.easyphotox.setFileProviderAuthorityX
 
 /**
  * @author 唐万超
